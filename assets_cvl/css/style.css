@@ -29,17 +29,8 @@ body span {
     font-size: 1vw;
 }
 
-@font-face {
-    font-family: 'gothic';
-    src: url('../fonts/GOTHIC.ttf');
-    src: url('../fonts/GOTHIC.ttf?#iefix') format('embedded-opentype'), url('../fonts/GOTHIC.ttf') format('ttf'), url('../fonts/GOTHIC.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'gothic2';
-    src: url('../fonts/GOTHICB_6.ttf');
-    src: url('../fonts/GOTHICB_6.ttf?#iefix') format('embedded-opentype'), url('../fonts/GOTHICB_6.ttf') format('ttf'), url('../fonts/GOTHICB_6.ttf') format('truetype');
-}
+@font-face{font-family:gothic;src:url('../fonts/go.otf');src:local('?'), url('../fonts/go.woff') format('woff'), url('../fonts/go.woff2') format('woff2'), url('../fonts/go.ttf') format('truetype');unicode-range:U+000-5FF, U+1e00-1fff, U+2000-2300;}
+@font-face{font-family:gothic2;src:url('../fonts/gbb.otf');src:local('?'), url('../fonts/gbb.woff') format('woff'), url('../fonts/gbb.woff2') format('woff2'), url('../fonts/gbb.ttf') format('truetype');unicode-range:U+000-5FF, U+1e00-1fff, U+2000-2300;}
 
 .center {
     width: 40%;
